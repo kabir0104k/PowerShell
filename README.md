@@ -52,15 +52,20 @@
 > Get-NetIPConfiguration(Connected Ip)
 > tracert www.google.com (For Tracing Route Towards Destination)
 > Get-NetAdapter(Physical Adaptor Details)
-> netsh Wlan Show Interface(Connected Adaptor Details)
-> netsh wlan show profiles (For Connected Wifi Networks)
-> netsh wlan show profile name=KABIR key clear (For Wifi Pass)
-> netsh wlan show all (Networks Currently Visible)
 > Disable-NetAdapter "Wi-Fi" (Disable Wifi)
 > Enable-NetAdapter "Wi-Fi" (Enable Wifi)
 > nslookup www.google.com(For Converting Domain Into Ip)
 > nslookup 172.217.161.4(For Converting Ip Into Domain)
 > ping www.google.com(For Checking Connection)
+```
+
+---------
+## Network Shell
+```bash
+> netsh Wlan Show Interface(Connected Adaptor Details)
+> netsh wlan show profiles (For Connected Wifi Networks)
+> netsh wlan show profile name=KABIR key clear (For Wifi Pass)
+> netsh wlan show all (Networks Currently Visible)
 > netsh advfirewall set all state off(Firewall Off)
 > netsh advfirewall set all state on(Firewall On)
 > netsh wlan delete profile name="KABIR"(Delete Connected Wifi)
